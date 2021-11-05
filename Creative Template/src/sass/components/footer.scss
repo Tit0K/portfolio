@@ -1,0 +1,61 @@
+.footer {
+    &-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1200px;
+        height: 62px;
+        margin: 0 auto;
+        border-top: solid 1px rgb(229, 229, 229);
+
+        &__description {
+            font-size: 14px;
+            font-family: $font-Montserrat, sans-serif;
+            color: $color-grey;
+            line-height: 1.2;
+            font-style: normal;
+        }
+
+        &__link {
+            text-decoration: none;
+            color: $color-pink;
+        }
+
+        &__form {
+            position: relative;
+        }
+
+        &__input {
+            background-color: $color-white;
+            font-size: 15px;
+            font-family: $font-Roboto, sans-serif;
+            color: $color-darkwhite;
+            font-weight: 400;
+            line-height: 1.6;
+            border: none;
+            border-top: solid 1px $color-darkwhite;
+            border-left: solid 1px $color-darkwhite;
+            border-bottom: solid 1px $color-darkwhite;
+            height: 40px;
+            padding-bottom: 1px;
+            display: inline-block;
+            width: 228px;
+        }
+
+        &__button {
+            background-color: $color-lightblue;
+            color: $color-white;
+            font-family: $font-Montserrat, sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 14px 32px 14px 32px;
+            font-size: 14px;
+            line-height: 1.2;
+            cursor: pointer;
+            border: solid 1px $color-darkwhite;
+            border: none;
+            display: inline-block;
+            margin-left: -4px;
+        }
+    }
+}

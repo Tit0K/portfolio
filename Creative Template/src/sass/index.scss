@@ -1,0 +1,19 @@
+@import './utils/reset';
+@import './helpers/varibles';
+@import './fonts/fonts';
+@import './base/scaffolding';
+
+/* ----------[Header]---------- */
+@import './components/header';
+
+/* ----------[Services]---------- */
+@import './components/services';
+
+/* ----------[Team]---------- */
+@import './components/team';
+
+/* ----------[Footer]---------- */
+@import './components/footer';
+
+/* ----------[Media]---------- */
+@import './media/header';

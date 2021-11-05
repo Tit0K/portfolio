@@ -1,0 +1,74 @@
+@media (max-width: 767px){
+
+/* ----------[Promo]---------- */
+
+.promo_section{
+    height: 540px;
+}
+
+/* =====[Header]===== */
+
+.promo_header{
+    margin-bottom: 40px;
+}
+
+.promo_row_header{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    height: 170px;
+}
+
+/* =====[Content]===== */
+
+.promo_title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    max-width: 295px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promo_desc{
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 216px;
+}
+
+/* ----------[Partners]---------- */
+
+.partners_title{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.partners_block{
+    margin-bottom: 30px;
+}
+
+.partner_image{
+    margin-bottom: 20px;
+}
+
+.partner_name{
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.partner_desc{
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.see_other_partners{
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 56px;
+}
+
+}

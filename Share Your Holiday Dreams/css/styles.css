@@ -1,0 +1,218 @@
+@import url("./fonts.css");
+@import url("./media.css");
+
+:root{
+    --color-white: #ffff;
+    --color-red: #ff4e50;
+    --color-orange: #ffa507;
+    --color-lightgreen: #1cd7ad;
+    --color-darkblue: #4e73db;
+    --color-grey: #666666;
+    --color-darkgrey: #333333;
+}
+
+/* ----------[Promo]---------- */
+
+.promo_section{
+    background: no-repeat center/cover url('../img/background/promo_desktop.png');
+}
+
+/* =====[Header]===== */
+
+.promo_header{
+    padding-top: 38px;
+}
+
+.promo_row_header{
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-family: 'Moncerat';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    vertical-align: bottom;
+}
+
+.log_in_promo_button{
+    font-size: 14px;
+    border: none;
+    background: none;
+    color: var(--color-white);
+    font-family: 'Moncerat';
+    font-weight: 700;
+    width: 88px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.sing_up_promo_button{
+    font-size: 14px;
+    background: none;
+    color: var(--color-white);
+    font-family: 'Moncerat';
+    font-weight: 700;
+    border: var(--color-white) 2px solid;
+    border-radius: 30px;
+    width: 88px;
+    height: 36px;
+    cursor: pointer;
+}
+
+/* =====[Content]===== */
+
+.promo_content{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promo_row_content{
+    justify-content: center;
+}
+
+.promo_title{
+    color: var(--color-white);
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.promo_desc{
+    color: var(--color-white);
+    font-family: "Roboto";
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.promo_final_button{
+    display: block;
+    border: none;
+    background: var(--color-red);
+    color: var(--color-white);
+    border-radius: 30px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.2;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+}
+
+/* ----------[Partners]---------- */
+
+.partners_content{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partners_list_row{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partners_title{
+    color:var(--color-darkgrey);
+    padding-top: 70px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.partners_block{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.partner_image{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.partner_photo{
+    position: absolute;
+    border-radius: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.icon{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    border: var(--color-white) solid 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tv_icon{
+    background-image: url('../img/icons/tv.png');
+    background-color: var(--color-red);
+}
+
+.partner_name{
+    font-family: "Montserrat";
+    color: var(--color-darkgrey);
+    font-weight: 700;
+}
+
+.partner_desc{
+    font-family: "Roboto";
+    color: var(--color-grey);
+    font-weight: 300;    
+}
+
+.flask_icon{
+    background-image: url('../img/icons/flask.png');
+    background-color: var(--color-orange);
+}
+
+.tea_icon{
+    background-image: url('../img/icons/tea.png');
+    background-color: var(--color-lightgreen);
+}
+
+.plane_icon{
+    background-image: url('../img/icons/plane.png');
+    background-color: var(--color-darkblue);
+}
+
+.partner_desc{
+    width: 217px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block_see_other_partners{
+    text-align: center;
+}
+.see_other_partners{
+    background: none;
+    border-color: var(--color-red);
+    color: var(--color-red);
+    border-radius: 50px;
+    border: 2px solid var(--color-red);
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 1.2;
+    cursor: pointer;
+}

@@ -1,0 +1,86 @@
+@media (min-width: 1300px){
+
+/* ----------[Promo]---------- */
+
+.promo_section{
+    height: 700px;
+}
+
+/* =====[Header]===== */
+
+.promo_header{
+    width: 940px;
+    margin-bottom: 152px;
+}
+
+.promo_header_buttons{
+    text-align: right;
+}
+/* =====[Content]===== */
+
+.promo_content{
+    width: 940px;
+}
+
+.promo_title{
+    max-width: 504px;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promo_desc{
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+
+/* ----------[Partners]---------- */
+
+.partners_content{
+    width: 940px;
+}
+
+.partners_title{
+    font-size: 22px;
+    margin-bottom: 36px;
+}
+
+.partners_block{
+    margin-bottom: 30px;
+}
+
+.partners_block:nth-child(2){
+    order: 1;
+}
+
+.partners_block:nth-child(4){
+    order: 2;
+}
+
+.partner_image{
+    margin-bottom: 20px;
+}
+
+.partner_name{
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.partner_desc{   
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.see_other_partners{
+    width: 192px;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 56px;
+}
+
+}
